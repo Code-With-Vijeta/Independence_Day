@@ -13,6 +13,7 @@ body {
 .main_div {
   display: flex;
   align-items: center;
+   margin-top: 70px;
 }
 .images_container {
   padding-right: 80px;
