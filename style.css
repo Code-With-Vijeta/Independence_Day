@@ -18,22 +18,22 @@ body {
   padding: 80px;
 }
 .smoke {
-    position: fixed; /* Fix to viewport to cover entire screen */
+    position: fixed; 
     top: 0;
     left: 0;
-    width: 100vw; /* Full viewport width */
-    height: 100vh; /* Full viewport height */
+    width: 100vw; 
+    height: 100vh; 
     overflow: hidden;
-    z-index: 1; /* Place it above the body but below the chakra */
+    z-index: 1; 
   }
   
   .smoke video {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* Ensure the video covers the container width */
-    height: 100%; /* Ensure the video covers the container height */
-    object-fit: cover; /* Ensure the video covers the container without distortion */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 .content {
   position: relative;
@@ -133,3 +133,112 @@ body {
     transform: rotateY(360deg);
   }
 }
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .chakra {
+      width: 200px;
+    }
+    
+    .chakra-wrapper {
+      left: 50%;
+      top: 10px;
+      transform: translateX(-50%);
+    }
+    
+    .wishes_content {
+      font-size: 3rem;
+    }
+    
+    .content p {
+      font-size: 1.2rem;
+    }
+    
+    .circle-container {
+      width: 300px;
+      height: 300px;
+    }
+    
+    .center-photo {
+      height: 220px;
+      top: 65%;
+    }
+    
+    .outer-photo {
+      width: 70px;
+      height: 50px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .chakra {
+      width: 250px;
+    }
+    
+    .chakra-wrapper {
+      left: 150px;
+      top: 20px;
+    }
+    
+    .wishes_content {
+      font-size: 4rem;
+    }
+    
+    .content p {
+      font-size: 1.3rem;
+    }
+    
+    .circle-container {
+      width: 400px;
+      height: 400px;
+    }
+    
+    .center-photo {
+      height: 350px;
+      top: 70%;
+    }
+    
+    .outer-photo {
+      width: 90px;
+      height: 70px;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .chakra {
+      width: 300px;
+    }
+    
+    .chakra-wrapper {
+      left: 227px;
+      top: 130px;
+    }
+    
+    .wishes_content {
+      font-size: 5rem;
+    }
+    
+    .content p {
+      font-size: 1.5rem;
+    }
+    
+    .circle-container {
+      width: 500px;
+      height: 500px;
+    }
+    
+    .center-photo {
+      height: 446px;
+      top: 70%;
+    }
+    
+    .outer-photo {
+      width: 100px;
+      height: 80px;
+    }
+  }
+  
