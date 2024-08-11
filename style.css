@@ -139,106 +139,18 @@ body {
 
 
 
-@media (max-width: 767px) {
-    .chakra {
-      width: 200px;
-    }
-    
-    .chakra-wrapper {
-      left: 50%;
-      top: 10px;
-      transform: translateX(-50%);
-    }
-    
-    .wishes_content {
-      font-size: 3rem;
-    }
-    
-    .content p {
-      font-size: 1.2rem;
-    }
-    
-    .circle-container {
-      width: 300px;
-      height: 300px;
-    }
-    
-    .center-photo {
-      height: 220px;
-      top: 65%;
-    }
-    
-    .outer-photo {
-      width: 70px;
-      height: 50px;
-    }
+ @media (max-width: 767px){
+  .main_div{
+    display: flex;
+    flex-direction: column;
   }
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-    .chakra {
-      width: 250px;
-    }
-    
-    .chakra-wrapper {
-      left: 150px;
-      top: 20px;
-    }
-    
-    .wishes_content {
-      font-size: 4rem;
-    }
-    
-    .content p {
-      font-size: 1.3rem;
-    }
-    
-    .circle-container {
-      width: 400px;
-      height: 400px;
-    }
-    
-    .center-photo {
-      height: 350px;
-      top: 70%;
-    }
-    
-    .outer-photo {
-      width: 90px;
-      height: 70px;
-    }
+  .chakra {
+    width: 200px;
   }
-  
-  @media (min-width: 1025px) {
-    .chakra {
-      width: 300px;
-    }
-    
-    .chakra-wrapper {
-      left: 227px;
-      top: 130px;
-    }
-    
-    .wishes_content {
-      font-size: 5rem;
-    }
-    
-    .content p {
-      font-size: 1.5rem;
-    }
-    
-    .circle-container {
-      width: 500px;
-      height: 500px;
-    }
-    
-    .center-photo {
-      height: 446px;
-      top: 70%;
-    }
-    
-    .outer-photo {
-      width: 100px;
-      height: 80px;
-    }
+  .wishes_content {
+    font-size: 3rem;
   }
-  
+  .content p {
+    font-size: 1.2rem;
+  }
+ }
